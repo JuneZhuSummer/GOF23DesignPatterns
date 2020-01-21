@@ -29,3 +29,5 @@
     1. 
 * 行为型(Behavioral)
     1. 
+    
+[设计模式关系图](src/images/设计模式关系图.jpg)
