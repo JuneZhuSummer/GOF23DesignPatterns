@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.decorator</OriginalElement>
+  <nodes>
+    <node x="0.0" y="307.5">structural.decorator.Car</node>
+    <node x="518.0" y="284.0">structural.decorator.FlyCar</node>
+    <node x="156.99999999999997" y="284.0">structural.decorator.WaterCar</node>
+    <node x="304.82738095238096" y="113.0">structural.decorator.SuperCar</node>
+    <node x="309.25" y="0.0">structural.decorator.ICar</node>
+    <node x="237.85606060606057" y="454.0">structural.decorator.Client</node>
+    <node x="333.0" y="284.0">structural.decorator.AICar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.decorator.WaterCar" target="structural.decorator.ICar">
+      <point x="-52.0" y="-50.0" />
+      <point x="182.99999999999997" y="83.0" />
+      <point x="338.60714285714283" y="83.0" />
+      <point x="-39.14285714285717" y="26.5" />
+    </edge>
+    <edge source="structural.decorator.FlyCar" target="structural.decorator.ICar">
+      <point x="45.66666666666663" y="-50.0" />
+      <point x="632.1666666666666" y="234.0" />
+      <point x="582.2370129870129" y="234.0" />
+      <point x="582.2370129870129" y="73.0" />
+      <point x="436.4642857142857" y="73.0" />
+      <point x="58.71428571428572" y="26.5" />
+    </edge>
+    <edge source="structural.decorator.Client" target="structural.decorator.AICar">
+      <point x="33.0" y="-26.5" />
+      <point x="358.85606060606057" y="414.0" />
+      <point x="456.75" y="414.0" />
+      <point x="41.25000000000003" y="50.0" />
+    </edge>
+    <edge source="structural.decorator.AICar" target="structural.decorator.SuperCar">
+      <point x="2.8421709430404007E-14" y="-50.0" />
+      <point x="415.5" y="264.0" />
+      <point x="395.82738095238096" y="264.0" />
+      <point x="13.0" y="50.5" />
+    </edge>
+    <edge source="structural.decorator.Client" target="structural.decorator.Car">
+      <point x="-55.0" y="-26.5" />
+      <point x="270.85606060606057" y="424.0" />
+      <point x="102.75" y="424.0" />
+      <point x="34.25" y="26.5" />
+    </edge>
+    <edge source="structural.decorator.SuperCar" target="structural.decorator.ICar">
+      <point x="0.0" y="-50.5" />
+      <point x="382.82738095238096" y="93.0" />
+      <point x="377.75" y="93.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="structural.decorator.FlyCar" target="structural.decorator.SuperCar">
+      <point x="0.0" y="-50.0" />
+      <point x="586.5" y="244.0" />
+      <point x="447.82738095238096" y="244.0" />
+      <point x="65.0" y="50.5" />
+    </edge>
+    <edge source="structural.decorator.AICar" target="structural.decorator.ICar">
+      <point x="55.00000000000003" y="-50.0" />
+      <point x="471.32738095238096" y="83.0" />
+      <point x="416.8928571428571" y="83.0" />
+      <point x="39.14285714285711" y="26.5" />
+    </edge>
+    <edge source="structural.decorator.Client" target="structural.decorator.FlyCar">
+      <point x="77.0" y="-26.5" />
+      <point x="402.85606060606057" y="434.0" />
+      <point x="620.75" y="434.0" />
+      <point x="34.25" y="50.0" />
+    </edge>
+    <edge source="structural.decorator.Car" target="structural.decorator.ICar">
+      <point x="0.0" y="-26.5" />
+      <point x="68.5" y="73.0" />
+      <point x="319.0357142857143" y="73.0" />
+      <point x="-58.71428571428572" y="26.5" />
+    </edge>
+    <edge source="structural.decorator.Client" target="structural.decorator.WaterCar">
+      <point x="-11.0" y="-26.5" />
+      <point x="314.85606060606057" y="404.0" />
+      <point x="274.0" y="404.0" />
+      <point x="39.0" y="50.0" />
+    </edge>
+    <edge source="structural.decorator.WaterCar" target="structural.decorator.SuperCar">
+      <point x="52.0" y="-50.0" />
+      <point x="287.0" y="264.0" />
+      <point x="343.82738095238096" y="264.0" />
+      <point x="-39.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="249.0" y="226.0" />
+  <SelectedNodes>
+    <node>structural.decorator.ICar</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

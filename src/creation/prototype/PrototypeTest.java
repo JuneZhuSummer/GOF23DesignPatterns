@@ -50,22 +50,22 @@ public class PrototypeTest {
         Sheep2 s2 = (Sheep2) s1.clone();
 
 
-        System.out.println(s1);
-        System.out.println(s1.getSname());
-        System.out.println(s1.getBirthday());
+        System.out.println("s1:"+s1);
+        System.out.println("s1.getSname():"+s1.getSname());
+        System.out.println("s1.getBirthday():"+s1.getBirthday());
 
-        System.out.println(s2.getBirthday());
+        System.out.println("s2:"+s2);
+        System.out.println("s2.getBirthday():"+s2.getBirthday());
         date.setTime(555555555555L);
-        System.out.println(s1.getBirthday());
+        System.out.println("s1.getBirthday():"+s1.getBirthday());
 
-        System.out.println(s2);
-        System.out.println(s2.getSname());
-        System.out.println(s2.getBirthday());
+        System.out.println("s2:"+s2);
+        System.out.println("s2.getSname():"+s2.getSname());
+        System.out.println("s2.getBirthday():"+s2.getBirthday());
     }
 
     /**
      * 测试深拷贝（序列化和反序列化方式）
-     *
      * @throws Exception
      */
     @Test

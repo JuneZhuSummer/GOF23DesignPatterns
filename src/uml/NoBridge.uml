@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.bridge.Computer</OriginalElement>
+  <nodes>
+    <node x="1079.0" y="206.0">structural.bridge.AsusPad</node>
+    <node x="294.0" y="206.0">structural.bridge.ShenZhouDesktop</node>
+    <node x="763.0" y="206.0">structural.bridge.ShenZhouLaptop</node>
+    <node x="1226.0" y="206.0">structural.bridge.DellPad</node>
+    <node x="616.0" y="103.0">structural.bridge.Laptop</node>
+    <node x="469.0" y="206.0">structural.bridge.AsusLaptop</node>
+    <node x="147.0" y="103.0">structural.bridge.Desktop</node>
+    <node x="147.0" y="206.0">structural.bridge.AsusDesktop</node>
+    <node x="616.0" y="206.0">structural.bridge.DellLaptop</node>
+    <node x="1079.0" y="103.0">structural.bridge.Pad</node>
+    <node x="616.0" y="0.0">structural.bridge.Computer</node>
+    <node x="0.0" y="206.0">structural.bridge.DellDesktop</node>
+    <node x="931.0" y="206.0">structural.bridge.ShenZhouPad</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.bridge.AsusPad" target="structural.bridge.Pad">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.AsusLaptop" target="structural.bridge.Laptop">
+      <point x="0.0" y="-26.5" />
+      <point x="532.5" y="181.0" />
+      <point x="637.1666666666666" y="181.0" />
+      <point x="-42.33333333333334" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.DellDesktop" target="structural.bridge.Desktop">
+      <point x="0.0" y="-26.5" />
+      <point x="63.5" y="181.0" />
+      <point x="168.16666666666663" y="181.0" />
+      <point x="-42.33333333333337" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.AsusDesktop" target="structural.bridge.Desktop">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.DellLaptop" target="structural.bridge.Laptop">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.Desktop" target="structural.bridge.Computer">
+      <point x="0.0" y="-26.5" />
+      <point x="210.5" y="78.0" />
+      <point x="637.1666666666666" y="78.0" />
+      <point x="-42.33333333333337" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.ShenZhouDesktop" target="structural.bridge.Desktop">
+      <point x="0.0" y="-26.5" />
+      <point x="371.5" y="181.0" />
+      <point x="252.83333333333337" y="181.0" />
+      <point x="42.33333333333337" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.Pad" target="structural.bridge.Computer">
+      <point x="0.0" y="-26.5" />
+      <point x="1142.5" y="78.0" />
+      <point x="721.8333333333334" y="78.0" />
+      <point x="42.33333333333337" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.Laptop" target="structural.bridge.Computer">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.ShenZhouLaptop" target="structural.bridge.Laptop">
+      <point x="0.0" y="-26.5" />
+      <point x="837.0" y="181.0" />
+      <point x="721.8333333333334" y="181.0" />
+      <point x="42.33333333333334" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.ShenZhouPad" target="structural.bridge.Pad">
+      <point x="0.0" y="-26.5" />
+      <point x="995.0" y="181.0" />
+      <point x="1100.1666666666667" y="181.0" />
+      <point x="-42.33333333333326" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.DellPad" target="structural.bridge.Pad">
+      <point x="0.0" y="-26.5" />
+      <point x="1289.5" y="181.0" />
+      <point x="1184.8333333333333" y="181.0" />
+      <point x="42.33333333333326" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8397669337217771" x="676.5" y="129.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

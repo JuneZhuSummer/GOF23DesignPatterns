@@ -22,7 +22,7 @@ public class CarFactory {
      * @return
      */
 
-    public static Audi createAodi(){
+    public static Audi createAudi(){
         return new Audi();
     }
 

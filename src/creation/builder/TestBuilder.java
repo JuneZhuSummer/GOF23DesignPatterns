@@ -13,12 +13,12 @@ public class TestBuilder {
     public void test01(){
         AirShipDirector director = new ZzjAirShipDirector(new ZzjAirShipBuilder());
         AirShip ship = director.directAirShip();
-        Engine e = ship.getEngine();
-        EscapeTower et = ship.getEscapeTower();
-        OrbitalModule o = ship.getOrbitalModule();
-        System.out.println(e.getName());
-        System.out.println(o.getName());
-        System.out.println(et.getName());
+//        Engine e = ship.getEngine();
+//        EscapeTower et = ship.getEscapeTower();
+//        OrbitalModule o = ship.getOrbitalModule();
+//        System.out.println(e.getName());
+//        System.out.println(o.getName());
+//        System.out.println(et.getName());
         ship.launch();
     }
 }

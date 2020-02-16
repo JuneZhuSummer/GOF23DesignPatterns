@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>creation.builder</OriginalElement>
+  <nodes>
+    <node x="237.0" y="461.0">creation.builder.Engine</node>
+    <node x="372.5" y="0.0">creation.builder.AirShipDirector</node>
+    <node x="337.0" y="103.0">creation.builder.ZzjAirShipDirector</node>
+    <node x="269.0" y="293.0">creation.builder.OrbitalModule</node>
+    <node x="0.0" y="293.0">creation.builder.AirShip</node>
+    <node x="0.0" y="0.0">creation.builder.AirShipBuilder</node>
+    <node x="436.0" y="461.0">creation.builder.TestBuilder</node>
+    <node x="0.0" y="149.0">creation.builder.ZzjAirShipBuilder</node>
+    <node x="0.0" y="461.0">creation.builder.EscapeTower</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="creation.builder.ZzjAirShipBuilder" target="creation.builder.AirShipBuilder">
+      <point x="0.0" y="-49.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="creation.builder.ZzjAirShipDirector" target="creation.builder.AirShipDirector">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="303.0" y="269.0" />
+  <SelectedNodes>
+    <node>creation.builder.Engine</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

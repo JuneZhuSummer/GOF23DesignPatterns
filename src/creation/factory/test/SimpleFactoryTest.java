@@ -15,19 +15,15 @@ public class SimpleFactoryTest {
        Car c1 = CarFactory.createCar("奥迪");
        Car c2 = CarFactory.createCar("比亚迪");
 
-       assert c1 != null;
        c1.run();
-       assert c2 != null;
        c2.run();
     }
 
     @Test
     public void test2(){
-
-        Car c1 = CarFactory.createAodi();
+        Car c1 = CarFactory.createAudi();
         Car c2 = CarFactory.createByd();
         c1.run();
         c2.run();
-
     }
 }

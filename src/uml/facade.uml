@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.facade</OriginalElement>
+  <nodes>
+    <node x="501.0" y="0.0">structural.facade.税务局</node>
+    <node x="59.5" y="0.0">structural.facade.质检局</node>
+    <node x="402.5" y="329.0">structural.facade.Client</node>
+    <node x="0.0" y="103.0">structural.facade.海淀质检局</node>
+    <node x="654.5" y="103.0">structural.facade.海淀区工商局</node>
+    <node x="296.5" y="0.0">structural.facade.银行</node>
+    <node x="415.5" y="226.0">structural.facade.RegisterFacade</node>
+    <node x="703.0" y="0.0">structural.facade.工商局</node>
+    <node x="450.25" y="103.0">structural.facade.海淀税务局</node>
+    <node x="245.25000000000003" y="103.0">structural.facade.中国工商银行</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.facade.海淀质检局" target="structural.facade.质检局">
+      <point x="0.0" y="-26.5" />
+      <point x="108.5" y="78.0" />
+      <point x="113.75" y="78.0" />
+      <point x="-54.25" y="26.5" />
+    </edge>
+    <edge source="structural.facade.RegisterFacade" target="structural.facade.海淀税务局">
+      <point x="9.375" y="-26.5" />
+      <point x="499.875" y="176.0" />
+      <point x="541.25" y="176.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="structural.facade.RegisterFacade" target="structural.facade.中国工商银行">
+      <point x="-28.125" y="-26.5" />
+      <point x="462.375" y="186.0" />
+      <point x="337.25" y="186.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="structural.facade.RegisterFacade" target="structural.facade.工商局">
+      <point x="65.625" y="-26.5" />
+      <point x="556.125" y="206.0" />
+      <point x="838.0" y="206.0" />
+      <point x="838.0" y="78.0" />
+      <point x="832.75" y="78.0" />
+      <point x="43.25" y="26.5" />
+    </edge>
+    <edge source="structural.facade.中国工商银行" target="structural.facade.银行">
+      <point x="0.0" y="-26.5" />
+      <point x="337.25" y="78.0" />
+      <point x="342.5" y="78.0" />
+      <point x="-46.0" y="26.5" />
+    </edge>
+    <edge source="structural.facade.RegisterFacade" target="structural.facade.质检局">
+      <point x="-46.875" y="-26.5" />
+      <point x="443.625" y="196.0" />
+      <point x="227.5" y="196.0" />
+      <point x="227.5" y="78.0" />
+      <point x="222.25" y="78.0" />
+      <point x="54.25" y="26.5" />
+    </edge>
+    <edge source="structural.facade.RegisterFacade" target="structural.facade.银行">
+      <point x="-9.375" y="-26.5" />
+      <point x="481.125" y="176.0" />
+      <point x="439.75" y="176.0" />
+      <point x="439.75" y="78.0" />
+      <point x="434.5" y="78.0" />
+      <point x="46.0" y="26.5" />
+    </edge>
+    <edge source="structural.facade.RegisterFacade" target="structural.facade.海淀质检局">
+      <point x="-65.625" y="-26.5" />
+      <point x="424.875" y="206.0" />
+      <point x="108.5" y="206.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="structural.facade.Client" target="structural.facade.RegisterFacade">
+      <point x="44.0" y="-26.5" />
+      <point x="534.5" y="304.0" />
+      <point x="528.0" y="304.0" />
+      <point x="37.5" y="26.5" />
+    </edge>
+    <edge source="structural.facade.海淀区工商局" target="structural.facade.工商局">
+      <point x="0.0" y="-26.5" />
+      <point x="741.0" y="78.0" />
+      <point x="746.25" y="78.0" />
+      <point x="-43.25" y="26.5" />
+    </edge>
+    <edge source="structural.facade.RegisterFacade" target="structural.facade.税务局">
+      <point x="28.125" y="-26.5" />
+      <point x="518.625" y="186.0" />
+      <point x="642.75" y="186.0" />
+      <point x="642.75" y="78.0" />
+      <point x="637.5" y="78.0" />
+      <point x="45.5" y="26.5" />
+    </edge>
+    <edge source="structural.facade.海淀税务局" target="structural.facade.税务局">
+      <point x="0.0" y="-26.5" />
+      <point x="541.25" y="78.0" />
+      <point x="546.5" y="78.0" />
+      <point x="-45.5" y="26.5" />
+    </edge>
+    <edge source="structural.facade.RegisterFacade" target="structural.facade.海淀区工商局">
+      <point x="46.875" y="-26.5" />
+      <point x="537.375" y="196.0" />
+      <point x="741.0" y="196.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="438.0" y="191.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

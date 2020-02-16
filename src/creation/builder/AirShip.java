@@ -40,6 +40,7 @@ public class AirShip {
     }
 }
 
+//轨道舱
 class OrbitalModule {
 
     private String name;
@@ -57,6 +58,7 @@ class OrbitalModule {
     }
 }
 
+//引擎
 class Engine{
     private String name;
 
@@ -73,6 +75,7 @@ class Engine{
     }
 }
 
+//逃逸塔
 class EscapeTower{
     private String name;
 

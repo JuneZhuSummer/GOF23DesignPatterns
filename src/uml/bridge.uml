@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>structural.bridge.Asus</OriginalElement>
+  <nodes>
+    <node x="-23.5" y="453.5">structural.bridge.Brand</node>
+    <node x="839.0" y="161.5">structural.bridge.Laptop2</node>
+    <node x="275.5" y="281.5">structural.bridge.Desktop2</node>
+    <node x="-23.5" y="653.5">structural.bridge.Dell</node>
+    <node x="176.5" y="173.5">structural.bridge.ShenZhou</node>
+    <node x="552.0" y="173.5">structural.bridge.Client</node>
+    <node x="550.0" y="429.5">structural.bridge.Computer2</node>
+    <node x="576.5" y="53.5">structural.bridge.Asus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="structural.bridge.Client" target="structural.bridge.ShenZhou">
+      <point x="-88.0" y="-0.0" />
+      <point x="63.5" y="-0.0" />
+    </edge>
+    <edge source="structural.bridge.Computer2" target="structural.bridge.Brand">
+      <point x="-90.0" y="-0.0" />
+      <point x="63.5" y="-0.0" />
+    </edge>
+    <edge source="structural.bridge.Client" target="structural.bridge.Desktop2">
+      <point x="-88.0" y="13.333333333333314" />
+      <point x="360.0" y="213.33333333333331" />
+      <point x="0.0" y="-38.5" />
+    </edge>
+    <edge source="structural.bridge.Dell" target="structural.bridge.Brand">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.Client" target="structural.bridge.Computer2">
+      <point x="0.0" y="26.5" />
+      <point x="0.0" y="-50.5" />
+    </edge>
+    <edge source="structural.bridge.Client" target="structural.bridge.Asus">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="structural.bridge.Laptop2" target="structural.bridge.Brand">
+      <point x="0.0" y="-38.5" />
+      <point x="920.0" y="0.0" />
+      <point x="40.0" y="0.0" />
+      <point x="0.0" y="-26.5" />
+    </edge>
+    <edge source="structural.bridge.Laptop2" target="structural.bridge.Computer2">
+      <point x="0.0" y="38.5" />
+      <point x="920.0" y="480.0" />
+      <point x="90.0" y="-0.0" />
+    </edge>
+    <edge source="structural.bridge.Client" target="structural.bridge.Laptop2">
+      <point x="88.0" y="-0.0" />
+      <point x="-81.0" y="-0.0" />
+    </edge>
+    <edge source="structural.bridge.Asus" target="structural.bridge.Brand">
+      <point x="-63.5" y="-0.0" />
+      <point x="53.33333333333333" y="80.0" />
+      <point x="13.333333333333329" y="-26.5" />
+    </edge>
+    <edge source="structural.bridge.Desktop2" target="structural.bridge.Computer2">
+      <point x="84.5" y="-0.0" />
+      <point x="600.0" y="320.0" />
+      <point x="-40.0" y="-50.5" />
+    </edge>
+    <edge source="structural.bridge.ShenZhou" target="structural.bridge.Brand">
+      <point x="-63.5" y="-0.0" />
+      <point x="66.66666666666667" y="200.0" />
+      <point x="26.66666666666667" y="-26.5" />
+    </edge>
+    <edge source="structural.bridge.Desktop2" target="structural.bridge.Brand">
+      <point x="-84.5" y="-0.0" />
+      <point x="80.0" y="320.0" />
+      <point x="40.0" y="-26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8537859007832899" x="609.5" y="334.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
