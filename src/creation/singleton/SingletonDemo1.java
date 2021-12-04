@@ -8,7 +8,7 @@ package creation.singleton;
 public class SingletonDemo1 {
 
     //直接创建对象，类加载的时候立即创建对象（没有延时加载的优势），无论是否使用。
-    private static SingletonDemo1 singleton = new SingletonDemo1();
+    private static final SingletonDemo1 singleton = new SingletonDemo1();
 
     //私有构造器，防止其他类的调用
     private SingletonDemo1() {
